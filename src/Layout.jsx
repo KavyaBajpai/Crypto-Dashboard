@@ -9,7 +9,7 @@ function Layout() {
   return (
     <>
 
-      <DashboardLayout >
+      <DashboardLayout title="dashboard">
        <Outlet />
        </DashboardLayout>
      

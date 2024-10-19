@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 
 
 const DashboardLayout= ({title,children})=> {
+  console.log('DashboardLayout is rendering'); 
   return (
    <>
      <Header title={title}/>
