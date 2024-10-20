@@ -10,7 +10,6 @@ const DashboardLayout= ({title,children})=> {
   return (
    <>
      <Header title={title}/>
-     <Navbar/>
      <div>
         {children}
      </div>

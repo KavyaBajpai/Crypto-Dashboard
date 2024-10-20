@@ -1,10 +1,12 @@
 import React from 'react'
 import DashboardLayout from '../../components/DashboardLayout'
 
-const Dashboard= () => {
+const Dashboard= ({}) => {
   return (
     <DashboardLayout title="Dashboard">
-       <div>This is the Home Page.</div>
+      <div className='flex justify-center items-center'>
+        <p className='text-2xl font-medium text-gray-500'>THIS IS THE DASHBOARD PAGE.</p>
+      </div>
     </DashboardLayout>
     
   )
