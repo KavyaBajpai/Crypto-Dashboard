@@ -8,21 +8,23 @@ const Header = ({title}) => {
   const toggleDropdown= () => {
     setIsDropdown((prev)=> !(prev))
   }
+  console.log(title);
   return (
    <>
-    <div className='w-[1184px] h-[64px] relative'>
-       <div className='w-[1184px] h-[64px] absolute top-0 right-0'>
+    <div className='relative'>
+       <div className='w-4/5 h-auto p-2 bg-gray-700 absolute top-0 right-0'>
          <div className='px-6 py-1 flex justify-between'>
-           <p>{title}</p>
+           <p className='bg-[gray-700] text-white'>{title}</p>
+          
            <div onClick={toggleDropdown} className='h-[50px] w-[50px] rounded-full border-black'>
-            <p>Actions</p>
+            <img src="./profileIcon.jpg" className='cursor-pointer rounded-full shadow-xl'/>
            </div>
            {
              isDropdown && (
-               <div className='bg-white flex shadow-lg rounded-lg absolute top-[64px] right-0 w-[150px]'>
+               <div className='bg-white flex shadow-lg rounded-lg absolute top-[75px] p-2 right-0 w-[150px]'>
                  <ul className='flex flex-col gap-2'>
-                   <li className='flex justify-center text-gray-800 hover:bg-gray-300'>Logout</li>
-                   <li className='flex justify-center text-gray-800 hover:bg-gray-300'>Support</li>
+                   <li className='flex justify-center text-gray-800 font-medium hover:bg-gray-300 display-block'>Logout</li>
+                   <li className='flex justify-center text-gray-800 font-medium hover:bg-gray-300'>Support</li>
                  </ul>
                </div>
              )

@@ -4,7 +4,7 @@ import DashboardLayout from '../../components/DashboardLayout'
 const Transaction= () =>{
   return (
     <>
-      <DashboardLayout title={Transactions}>
+      <DashboardLayout title="Transactions">
         <div>This is the Transactions Page.</div>
       </DashboardLayout>
 
