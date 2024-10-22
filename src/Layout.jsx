@@ -6,13 +6,13 @@ import DashboardLayout from './components/DashboardLayout'
 import { Outlet } from 'react-router-dom'
 
 function Layout() {
-  const title = "layout"
+  //const title = "layout"
   return (
     <>
 
-      <DashboardLayout title={title} >
+      {/* <DashboardLayout title={title} > */}
        <Outlet />
-       </DashboardLayout>
+       {/* </DashboardLayout> */}
      
 
     </>
