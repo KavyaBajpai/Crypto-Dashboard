@@ -1,10 +1,14 @@
 import React from 'react'
+import DashboardLayout from '../../components/DashboardLayout'
 
-function Contact() {
+const Contact= () =>{
   return (
-    <div>
-      
-    </div>
+    <>
+      <DashboardLayout title="Contact">
+        <div>This is the Contact Page.</div>
+      </DashboardLayout>
+
+    </>
   )
 }
 

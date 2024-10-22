@@ -32,7 +32,7 @@ const Header = ({title}) => {
               </div>
             </div>
            
-          )
+          )  
         
        }
         {/* <div className='px-6 py-1 flex justify-between'> */}

@@ -9,11 +9,13 @@ const DashboardLayout= ({title,children})=> {
   console.log('DashboardLayout is rendering'); 
   return (
    <>
-     <Header title={title}/>
-     <div>
+     <div className='min-h-screen flex flex-col justify-between'>
+      <Header title={title}/>
+       <div className='flex-grow'>
         {children}
+       </div>
+      <Footer/>
      </div>
-     <Footer/>
    </>
   )
 }

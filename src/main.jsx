@@ -9,10 +9,12 @@ import Footer from './components/Footer.jsx'
 import Navbar from './components/Navbar.jsx'
 import Transactions from './pages/Transactions/Transactions.jsx'
 import Contact from './pages/Contact/Contact.jsx'
+import Dashboard from './pages/Dashboard/Dashboard.jsx'
 
 const router= createBrowserRouter(
    createRoutesFromElements(
     <Route path='/' element={ <Layout/> }>
+       <Route index element={<Dashboard />} />
        <Route path='/transactions' element={ <Transactions />}/>
        <Route path='/contact' element={ <Contact />} />
     </Route>
