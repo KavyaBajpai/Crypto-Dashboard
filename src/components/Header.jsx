@@ -19,7 +19,7 @@ const Header = ({ title }) => {
   return (
     <>
       <div className='relative'>
-        <div className='w-screen h-[80px] flex justify-between items-center p-2 bg-gray-700 shadow-xl absolute top-0 right-0'>
+        <div className='w-screen h-[80px] flex justify-between items-center pr-2 pl-7 bg-gray-700 shadow-xl absolute top-0 right-0'>
           {/* menu-image-div */}
           <div onClick={toggleSideNav} className='rounded-full border-black flex justify-center items-center'>
             <img src="./menuIcon.jpg" className='h-[40px] w-[40px] hover:cursor-pointer rounded-full' />
