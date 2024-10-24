@@ -2,11 +2,12 @@ import React from 'react'
 
 function PortfolioSection() {
   return (
-    <div>
+    <div className='w-2/3 mt-[80px] bg-white h-[100px]'>
      
-     <div id="upper-section">
+     <div id="upper-section" className='bg-gray-100 w-2/3 h-[100px]'>
+     <p>HII</p>
        <div id="portfolio-value">
-
+         
        </div>
 
        <div id="wallet-balances">
