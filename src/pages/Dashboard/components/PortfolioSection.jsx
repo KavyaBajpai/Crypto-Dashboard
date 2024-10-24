@@ -3,8 +3,32 @@ import React from 'react'
 function PortfolioSection() {
   return (
     <div>
-      {/* //this section holds the sections of the dashboard. */}
-      {/* //yeah this is for just getting in the contribution... nothing to see here... */}
+     
+     <div id="upper-section">
+       <div id="portfolio-value">
+
+       </div>
+
+       <div id="wallet-balances">
+
+       </div>
+
+       <div id="inr">
+
+       </div>
+
+       <div id="buttons">
+         
+         <button id="deposit">
+
+         </button>
+
+         <button id="withdraw">
+
+         </button>
+
+       </div>
+     </div>
        
     </div>
   )
